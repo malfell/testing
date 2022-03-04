@@ -1,0 +1,45 @@
+.header {
+    background-color: #f58a8a;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+.column {
+    float: left;
+    width: 50%;
+    text-align:center;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align:center;
+}
+
+.profile {
+  text-align:center
+
+}
+
+.button {
+  background-color: #8C6D09;
+  color: white;
+  padding: 16px 32px;
+  display:inline-block;
+  margin:4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;	
+}
+   
+.button1{
+ background-color:#8C6D09;
+  color:#FFF;    	
+}
+
+#paragraph
+{
+display:none;
+}
